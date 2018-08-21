@@ -10,3 +10,4 @@ npm-debug.log
 .tmp
 assets.json
 id_rsa
+*.log

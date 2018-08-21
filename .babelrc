@@ -13,6 +13,7 @@
   "plugins": [
     "transform-runtime",
     "styled-jsx/babel",
-    "transform-class-properties"
+    "transform-class-properties",
+    "css-modules-transform"
   ]
 }

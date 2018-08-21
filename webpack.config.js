@@ -13,7 +13,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'docs'),
-    publicPath: 'react-jest-demo',
+    // publicPath: 'react-jest-demo',
   },
   module: {
     rules: [
