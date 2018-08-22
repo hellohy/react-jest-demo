@@ -17,7 +17,8 @@ module.exports = {
     'react/jsx-uses-react': 2,
     'react/jsx-uses-vars': 2,
     'react/prefer-stateless-function': 'off',
-    'react/require-extension': 'off'
+    'react/require-extension': 'off',
+    'no-plusplus': ["error", { "allowForLoopAfterthoughts": true }]
   },
   env: {
     browser: true,

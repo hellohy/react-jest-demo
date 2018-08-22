@@ -3,5 +3,6 @@
 --recursive
 --require babel-core/register
 --require jsdom-global/register
+--timeout 4000
 ./test/bootstrap.test.js
 ./src/**/*.test.js
