@@ -1,4 +1,3 @@
-import { doesNotReject } from 'assert'
 import debounce from './debounce'
 import Event from './event'
 
