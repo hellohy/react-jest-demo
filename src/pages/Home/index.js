@@ -22,7 +22,10 @@ export class Home extends React.Component {
         <nav className="navbar">
           <ul>
             <li className="nav-li">
-              <Link to="/hoc-button">HOC button</Link>
+              <Link to="/page-a">Page A</Link>
+            </li>
+            <li className="nav-li">
+              <Link to="/page-b">Page B</Link>
             </li>
             <li className="nav-li">
               <Link to="/about">Go to about</Link>

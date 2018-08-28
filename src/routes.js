@@ -4,13 +4,16 @@ import { Router } from '@reach/router'
 import Home from './pages/Home/index'
 import About from './pages/About'
 import NotFound from './pages/NotFound'
-import HOCButton from './pages/HOCButton'
+import PageA from './pages/PageA'
+import PageB from './pages/PageB'
+
 
 export default (
   <Router>
     <Home path="/" />
     <About path="/about" />
-    <HOCButton path='/hoc-button' />
+    <PageA path='/page-a' />
+    <PageB path='/page-b' />
     <NotFound default />
   </Router>
 )
